@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+width: 100%;}
+
+.navheading{
+    font-family: 'Ubuntu', sans-serif;
+margin-left: 6%;
+font-weight: bolder;
+padding: 10px 10px;
+
+}
+.navlist{
+   display: flex;
+   text-transform: uppercase;
+   align-items: center;
+gap: 40px;}
+
+.navtag a:hover{
+    color: rgba(255, 255, 255, 0.854);
+}
+.body{
+background-image: url(https://storage.needpix.com/rsynced_images/film-background-1334067869u9d.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   .modal { 
+    background: transparent; 
+ }
+.hits{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    
+}
+.text{
+    text-align: center;
+    margin-top: 150px;
+    
+}
+
+
+.emailbutton{
+    margin-left: 400px;
+    display: flex;
+    gap: 1rem;
+}
+#emailbox{
+    padding: 10px;
+    width: 30rem;
+    height: 50px;
+    background-color: black;
+    opacity: 0.5;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+.getstarted{
+    background-color: red;
+    width: 200px;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid grey;
+    font-size: larger;
+    font-weight: bolder;
+}
+.emailbutton .getstarted:hover{
+background-color: rgb(212, 48, 48);
+}
+.space{
+    background-color: grey;
+    height: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+.divisionone{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+}
+.tv{
+    position: absolute;
+    opacity: 0.9;
+    
+}
+.kannur{
+    width: 464px;
+    height: 260px;
+    position: relative;
+    top: 100px;
+    left: 85px;
+    opacity: 0.7;
+}
+.animate
+{
+    gap: 15px
+    ;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #e40000 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+      
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.subscribe{
+    border:1px #e40000 solid;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+.footer{
+    background-color: black;
+    height: 400px;
+}
+.footone{
+    height: 300px;
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+a:active {
+    color: rgb(163, 12, 12);
+    background-color:  rgb(224, 58, 58)parent;
+    text-decoration: underline;
+  }
+  #link{
+    text-decoration: none;
+    color: rgb(191, 184, 184);
+  }
+
+  ul li {
+    margin-bottom: 5px;
+    list-style-type: none;
+  }
+  .animated
+{
+    gap: 15px
+    ;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #e40000 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 40px;
+      margin-left: 42%;
+}
+  
+  
+  
+
+
+
+
